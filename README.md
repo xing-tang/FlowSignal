@@ -1,8 +1,7 @@
-[toc]
 # FlowSignal 事件流通信
 ## 1 背景
 - 在现代 Android 应用中，跨页面和跨组件通信是常见需求。为了高效管理和分发复杂事件流，我们需要一个基于事件驱动架构的事件流通信库。FlowSignal 是一个基于 Kotlin 的库，利用 Kotlin 协程和 Flow 特性以及 Lifecycle 生命周期感知能力，提供了一个简洁而强大的事件管理和分发解决方案。
-- [FlowSignal Github 仓库地址]()
+- [FliwSignal GitHub 仓库地址](https://github.com/xing-tang/FlowSignal)
 
 ## 2 常用的事件流通信库对比
 | 事件流通信库 | 延迟发送 | 有序接收 | 粘性事件 | 生命周期 | 线程分发|

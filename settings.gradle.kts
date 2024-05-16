@@ -9,6 +9,7 @@ pluginManagement {
     }
     mavenCentral()
     gradlePluginPortal()
+    maven {url = uri("https://jitpack.io")}
   }
 }
 dependencyResolutionManagement {
@@ -16,9 +17,9 @@ dependencyResolutionManagement {
   repositories {
     google()
     mavenCentral()
+    maven {url = uri("https://jitpack.io")}
   }
 }
 
 rootProject.name = "FlowSignal"
-include(":app")
-include(":library")
+include(":app", ":library")

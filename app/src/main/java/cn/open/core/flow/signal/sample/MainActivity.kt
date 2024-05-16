@@ -19,7 +19,7 @@ class MainActivity: ComponentActivity() {
       FlowSignalTheme {
         // A surface container using the 'background' color from the theme
         Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-          Greeting("Android")
+          Greeting("FlowSignal")
         }
       }
     }
@@ -38,6 +38,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
   FlowSignalTheme {
-    Greeting("Android")
+    Greeting("FlowSignal")
   }
 }
